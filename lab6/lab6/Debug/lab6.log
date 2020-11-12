@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\dewjo\source\repos\labs\lab6\lab6\main.cpp(64,40): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\dewjo\source\repos\labs\lab6\lab6\main.cpp(96,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  lab6.vcxproj -> C:\Users\dewjo\source\repos\labs\lab6\Debug\lab6.exe
