@@ -85,7 +85,7 @@ void program6() {
 }
 
 
-void main() {
+int main() {
 	setlocale(LC_ALL, "rus");
 
 	program1();
@@ -94,4 +94,6 @@ void main() {
 	program4();
 	program5();
 	program6();
+
+	return 0;
 }

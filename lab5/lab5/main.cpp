@@ -65,7 +65,7 @@ void program5() {
 		", его площадь равна " << sqrt(p / 2 * (p / 2 - a) * (p / 2 - b) * (p / 2 - c));
 }
 
-void main() {
+int main() {
 	setlocale(LC_ALL, "rus");
 
 	program1();
@@ -76,4 +76,5 @@ void main() {
 
 	cout << "\n\n";
 
+	return 0;
 }

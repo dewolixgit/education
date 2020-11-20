@@ -2,7 +2,7 @@
 #include <cmath> //для задействования функции модуля abs
 using namespace std;
 
-void main()
+int main()
 {
 	setlocale(LC_ALL, "rus"); // для русского языка
 
@@ -48,4 +48,7 @@ void main()
 		"   разность модулей равна " << abs(a) << " - " << abs(b) << " = " << abs(a) - abs(b) << ", \n" <<
 		"   произведение модулей равно " << abs(a) << " * " << abs(b) << " = " << abs(a) * abs(b) << ", \n" <<
 		"   частное модулей равно " << abs(a) << " / " << abs(b) << " = " << (double)abs(a) / abs(b) << "\n\n";
+
+
+	return 0;
 }

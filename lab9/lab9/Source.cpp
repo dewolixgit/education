@@ -124,7 +124,7 @@ void program5() {
 	cout << year << " год соответствует " << year / 100 + 1 << " столетию.\n\n";
 }
 
-void main() {
+int main() {
 	setlocale(LC_ALL, "rus");
 
 	program1();
@@ -132,4 +132,7 @@ void main() {
 	program3();
 	program4();
 	program5();
+
+
+	return 0;
 }
