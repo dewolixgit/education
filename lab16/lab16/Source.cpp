@@ -38,7 +38,7 @@ void program1() {
 
 	//вывожу
 	cout << "Вывод: ";
-	for (i = 0; i < amount-1; i++) {
+	for (i = 0; i < amount - 1; i++) {
 		cout << a[i] << ", ";
 	}
 	cout << a[amount - 1] << ".\n\n";
